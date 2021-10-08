@@ -1,13 +1,13 @@
 import {NgModule } from '@angular/core';
 import { Routes, RouterModule, Router } from '@angular/router';
-import { MenuComponent } from './menu/menu.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
 const routes: Routes = [
-  {
-    path: "", component: MenuComponent
-  }
+  // {
+  //   path: "", component: MenuComponent
+  // }
 ]
 
 @NgModule({

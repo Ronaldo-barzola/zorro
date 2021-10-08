@@ -10,7 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { MenuComponent } from './menu/menu.component';
+
 import { NzButtonModule } from 'ng-zorro-antd/button';
 
 import { NZ_ICONS } from 'ng-zorro-antd/icon';
@@ -18,6 +18,9 @@ import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons';
 
 import { DemoNgZorroAntdModule } from './ng-zorro-antd.module';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 // import { NzDemoMenuVerticalComponent } from './app.component';
 
@@ -33,7 +36,9 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

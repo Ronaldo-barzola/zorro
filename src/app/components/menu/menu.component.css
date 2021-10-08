@@ -1,0 +1,9 @@
+.ant-layout-sider {
+    background: #59C3B7;
+}
+
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+    background: #59C3B7;
+}
